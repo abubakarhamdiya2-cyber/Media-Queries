@@ -74,12 +74,19 @@ body {
   border-radius: 8px;
 }
 
-/* styling for iphone 15 */
+/* styling for tablets */
 @media screen and (max-width: 991px){
   .light-box{
-    background-color: #3498db ;
+    background-color: #9ace2a ;
     color: #2c3e50;
   }
-
+/* styling for mobile */
+@media screen and (max-width: 786) {
+  .light-box{ 
+    background-color: #9ace2a;
+    color: white
+  }
+  
+}
 }
   
