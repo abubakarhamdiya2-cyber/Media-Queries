@@ -89,4 +89,23 @@ body {
   
 }
 }
+/* C2 */
+.layout-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.main-content{
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.sidebar{
+  background-color: cadetblue;
+  padding: 20px;
+  color: rgb(229, 234, 234);
+  text-shadow: 2px 2px 5px black;
+}
   
