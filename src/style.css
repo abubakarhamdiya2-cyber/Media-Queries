@@ -82,10 +82,12 @@ body {
   }
 /* styling for mobile */
 @media screen and (max-width: 786) {
+  /* C1 styling for mobile */
   .light-box{ 
     background-color: #9ace2a;
     color: white
   }
+
   
 }
 }
@@ -108,4 +110,13 @@ body {
   color: rgb(229, 234, 234);
   text-shadow: 2px 2px 5px black;
 }
+/* c2 styling for mobile */
+.layout-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+
   
