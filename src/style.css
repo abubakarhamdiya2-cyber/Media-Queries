@@ -84,12 +84,14 @@ body {
 @media screen and (max-width: 786) {
   /* C1 styling for mobile */
   .light-box{ 
-    background-color: #9ace2a;
+    background-color: #4d6717;
     color: white
   }
 
+
   
 }
+
 }
 /* C2 */
 .layout-wrapper{
@@ -117,6 +119,28 @@ body {
   gap: 20px;
 
 }
+.hamburger-icon{
+    display: block;
+  }
+
+  .nav-links{
+    display: none;
+    background-color: #3498db;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px 0px;
+    width: 150px;
+  }
+
+  .nav-links li{
+    margin: 10px 0px;
+  }
+
+  .menu-container:hover .nav-links{
+    display: flex;
+    flex-direction: column;
+  }
 
 
   
